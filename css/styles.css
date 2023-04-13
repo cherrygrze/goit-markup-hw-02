@@ -1,0 +1,125 @@
+:root {
+    --primary-color: #2196f3;
+    --main-font: #212121;
+    --bg-color-main: #fff;
+    --bg-color-accent1: #f5f4fa;
+    --bg-color-accent2: #2f303a;
+    --second-font-color: #757575;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--main-font);
+}
+
+/* UTILS */
+.logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+.logo-black {
+    color: #000;
+}
+.logo-white {
+    color: #fff;
+}
+.header {
+    background-color: var(--bg-color-main);
+}
+.footer {
+    background-color: var(--bg-color-accent2);
+}
+/* UTILS */
+
+/* HEADER */
+.link {
+    font-size: 14px;
+    line-height: 1.15;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: var(--main-font);
+    text-decoration: none;
+}
+.link:focus,
+.link:hover {
+    color: var(--primary-color);
+}
+
+/* HEADER */
+s
+
+/* HERO  */
+.button-filter {
+    font-size: 16px;
+    line-height: 1.62;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+}
+.button-filter:focus,
+.button-filter:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+    cursor: pointer;
+}
+.button-order {
+    font-size: 16px;
+    line-height: 1.88;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    color: #fff;
+    background-color: var(--active-element);
+}
+.button-order:hover,
+.button-order:focus {
+    cursor: pointer;
+}
+/* HERO  */
+
+/* ARTICLES */
+/* ARTICLES */
+
+/* SERVICES */
+.contact {
+    font-size: 14px;
+    line-height: 1.15;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: var(--second-font-color);
+    text-decoration: none;
+}
+.contact:focus,
+.contact:hover {
+    color: var(--primary-color);
+}
+/* SERVICES */
+
+/* TEAM */
+/* TEAM */
+/* CLIENTS */
+/* CLIENTS */
+/* FOOTER */
+.footer .contact {
+    line-height: 1.71;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+}
+/* FOOTER */
+/* PORTFOLIO */
+.portfolio-main-projects h3 {
+    font-size: 18px;
+    line-height: 2;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+}
+.portfolio-main-projects p {
+    font-size: 16px;
+    line-height: 1.88;
+    color: var(--second-font-color);
+    letter-spacing: 0.03em;
+}
+/* PORTFOLIO */
