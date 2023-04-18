@@ -46,9 +46,18 @@ body {
 }
 
 /* HEADER */
-s
 
 /* HERO  */
+
+.index-main-order {
+    font-size: 44px;
+    line-height: 1.36;
+    font-weight: 900;
+    letter-spacing: 0.06em;
+    color: #fff;
+    background-color: var(--bg-color-accent2);
+}
+
 .button-filter {
     font-size: 16px;
     line-height: 1.62;
@@ -76,9 +85,40 @@ s
 /* HERO  */
 
 /* ARTICLES */
+
+.index.article {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--second-font-color);
+}
 /* ARTICLES */
 
 /* SERVICES */
+
+.service-title {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+}
+
+/* SERVICES */
+
+/* TEAM */
+.service-title-2 {
+    background-color: var(--bg-color-accent1);
+}
+/* TEAM */
+/* CLIENTS */
+/* CLIENTS */
+
+/* FOOTER */
+
 .contact {
     font-size: 14px;
     line-height: 1.15;
@@ -91,17 +131,6 @@ s
 .contact:hover {
     color: var(--primary-color);
 }
-/* SERVICES */
-
-/* TEAM */
-.service-title {
-    background-color: var(--bg-color-accent1);
-}
-/* TEAM */
-/* CLIENTS */
-/* CLIENTS */
-
-/* FOOTER */
 .footer .contact {
     line-height: 1.71;
     font-weight: 400;
