@@ -133,6 +133,7 @@ body {
     letter-spacing: 0.02em;
     color: var(--second-font-color);
     text-decoration: none;
+    font-style: normal;
 }
 .contact:focus,
 .contact:hover {
@@ -142,10 +143,10 @@ body {
     line-height: 1.71;
     font-weight: 400;
     letter-spacing: 0.03em;
-    font-style: normal;
 }
 .footer-color {
     color: #fff;
+    font-style: normal;
 }
 .footer-bg {
     background-color: var(--bg-color-accent2);
