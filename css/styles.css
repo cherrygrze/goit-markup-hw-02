@@ -99,10 +99,10 @@ body {
 /* SERVICES */
 
 /* TEAM */
-.service-title-2 {
+.team {
     background-color: var(--bg-color-accent1);
 }
-.service-title-2 h4 {
+.team-member {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -111,9 +111,8 @@ body {
     text-align: center;
     color: #212121;
 }
-.service-title-2 p {
+.team-position {
     font-family: 'Roboto';
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -143,6 +142,7 @@ body {
     line-height: 1.71;
     font-weight: 400;
     letter-spacing: 0.03em;
+    font-style: normal;
 }
 .footer-color {
     color: #fff;
